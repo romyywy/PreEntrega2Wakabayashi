@@ -1,0 +1,187 @@
+/*colores
+#006241
+#d4e9e2
+#1e3932
+#dff9ba
+*/
+
+/*compartidos-------------------------------------------------*/
+
+    /*nav bar-------------------------*/
+
+ 
+    .navbar-collapse{
+        display: flex;
+        border: dotted 1px red;
+        justify-content: right;
+
+    }
+
+    .nav-link{
+        color: antiquewhite;
+    }
+
+    nav{
+        border: dotted 1px gold;
+        background-color: #006241;
+    }
+
+    .navbar-toggler{
+        background-color: white;
+        border: none;
+    }
+
+    .navbar-toggler-icon:focus{
+        border: none;
+        outline: none;
+    }
+
+    /*footer----------------------------*/
+    footer{
+        background-color: #006241;
+        color: beige;
+        height: 150px;
+        }
+
+.card-group img{
+    width: 20%;
+}
+
+
+/*index*----------------------------------------------------/
+
+    /*carousel--------------------*/ 
+
+    .c-item{
+        height: 480px;
+    
+    }
+
+    .c-item h2{
+        color: #006241;
+    }
+
+    .c-image{
+        height: 100%;
+        object-fit: cover;
+        filter: opacity(0.6);
+    }
+
+    /*motivation---------------*/
+    .motivation{
+        background-color:#d4e9e2 ;
+    }
+
+    .motivation h3{
+        color: #006241;
+    }
+
+
+    /*top3------------------------*/
+
+    .top3 img{
+        width: 40%;
+        height: 40%;
+
+    }
+
+/*pagina especialidades-------------------------------------------*/
+
+.especialidades-hero{
+    background-color: beige;
+    border:1px dotted goldenrod;
+}
+
+.articulo{
+    border: 1px dotted red;
+}
+
+
+.e-image{
+    height:60%;
+    object-fit:cover;
+    filter: opacity(0.6);
+}
+
+
+
+
+/*pagina MBA--------------------------------------------------------*/
+
+.mba-hero{
+    border: 1px dotted gold;
+    height: 200px;
+}
+
+.mba-cards{
+    border: 1px darkorange dotted;
+}
+
+.mba-main{
+    border: 3px dotted blue;
+}
+
+.mba-main img{
+    
+    border: blue 3px solid;
+
+}
+
+.mba-main col{
+    height:300px;
+}
+
+.mba-wrap{
+    border: 1px dotted green;
+}
+
+.wrap-card{
+    border: 1px solid blue;
+}
+
+/*cards universidades--------------------*/
+
+
+.cuadro-imagen{
+    border: 1px dotted green;
+}
+
+.div1{
+    border:2px dotted blue;
+}
+
+.mba-cards img{
+    height: 130px;
+    width: 130px;
+}
+
+
+/*preparacion----------------------------------------------------------------*/
+
+.carousel-item{
+    background-color: beige;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: aqua;
+}
+
+.carousel-control-next-icon{
+    background-color: #006241;
+}
+
+.carousel-control-prev-icon{
+    background-color: #006241;
+}
+
+.hipervinculo{
+    text-decoration: none;
+    color:grey;
+    font-size: 13px;
+}
+
+.hipervinculo:hover{
+    color: #006241;
+}
+
+
