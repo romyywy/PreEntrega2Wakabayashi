@@ -163,7 +163,7 @@
 }
 
 .carousel-indicators [data-bs-target]{
-    background-color: aqua;
+    background-color: #006241;
 }
 
 .carousel-control-next-icon{
@@ -184,4 +184,12 @@
     color: #006241;
 }
 
+.c-text{
+    position: absolute;
+}
 
+
+.c-item2{
+    height: 450px;
+
+}
