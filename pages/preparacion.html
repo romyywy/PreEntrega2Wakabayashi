@@ -46,73 +46,58 @@
 
 <!--carousel -->
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
+    <div class="carousel-indicators mt-4">
     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active c-indicators" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" class="c-indicators"aria-label="Slide 2"></button>
     </div>
     <div class="carousel-inner">
         <!--primer slide-->
     <div class="carousel-item active c-item2" data-bs-interval="2500">
-      <!--cards-->
-      <h2 class="text-center pt-4 ">Todo lo que debes saber para tu preparación</h2>
-      <p class="text-center p-2">La mayoría de universidades suele requerir evaluaciones para medir el manejo del idioma y conocimientos básicos</p>   
-          
-        <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+
+      <section class="carousel-cards">
+        <h2 class="text-center pt-4 d-none d-md-block">Todo lo que debes saber para tu preparación</h2>
+        <p class="text-center p-2">La mayoría de universidades suele requerir evaluaciones para medir el manejo del idioma y conocimientos básicos</p>      
+        <div class="row row-cols-1 row-cols-md-3 g-4 p-3 d-flex justify-content-center"> <!--caja contenedora de cards-->
           <!--card1-->
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../resources/undraw_Predictive_analytics_re_wxt8.png" class="img-fluid rounded-start rounded mx-auto d-block" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">GMAT</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <a class="hipervinculo" href="https://www.mba.com/exams/gmat-exam">Conoce más</a>
-                  
-                  
+                <div class="col-md-4">
+                  <img src="../resources/undraw_Predictive_analytics_re_wxt8.png" class="img-fluid rounded-start rounded mx-auto d-block d-none d-md-block" alt="...">
                 </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">GMAT</h5>
+                      <p class="card-text d-none d-sm-block ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a class="hipervinculo" href="https://www.mba.com/exams/gmat-exam">Conoce más</a>
+                    </div>
+                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../resources/undraw_Exams_re_4ios.png" class="img-fluid rounded-start rounded mx-auto d-block" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">GRE</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <a class="hipervinculo" href="https://www.ets.org/gre.html">Conoce más</a>
-                  
+            <!--card2-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../resources/undraw_Exams_re_4ios.png" class="img-fluid rounded-start rounded mx-auto d-block d-none d-md-block" alt="...">
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../resources/undraw_Online_test_re_kyfx.png" class="rounded mx-auto d-block img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">TOEFL</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <a class="hipervinculo" href="https://www.ets.org/toefl.html">Conoce más</a>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">GRE</h5>
+                    <p class="card-text d-none d-sm-block">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a class="hipervinculo" href="https://www.ets.org/gre.html">Conoce más</a>
                     
+                  </div>
                 </div>
               </div>
             </div>
+
+
+            </div> <!--div de la caja contenedora de cards-->
           </div>
+        
+    </section>
 
 
-          
-          </div>
-
-    </div>
+    
 
     <!--segundo slide-->
     <div class="carousel-item c-item2">
