@@ -1,0 +1,32 @@
+//carousel
+
+.c-item{
+    height: 480px;
+    h2{
+        color:$verde;
+    }
+    .c-image{
+        @include imagen(100%,cover,opacity(0.6))
+
+    }
+}
+
+
+//motivation
+
+.motivation{
+    background-color:$gris ;
+    h3{
+        color: $verde;
+    }
+}
+
+
+//top3
+
+.top3{
+    img{
+        width: 40%;
+        height: 40%;
+    }
+}

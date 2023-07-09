@@ -1,0 +1,40 @@
+//navbar
+
+nav{
+    border: dotted 1px gold;
+    background-color:$verde;
+    .navbar-collapse{
+        display: flex;
+        border: dotted 1px red;
+        justify-content: right;
+        .nav-link{
+            color: antiquewhite;
+            &:hover{
+                color:$gris;
+            }
+        }
+    }
+    .navbar-toggler{
+        background-color: white;
+        border: none;
+        .navbar-toggler-icon:focus{
+            border: none;
+            outline: none;
+        }
+    }
+
+}
+
+//footer
+
+footer{
+    background-color:$verde;
+    color: beige;
+    height: 150px;
+    }
+
+.card-group img{
+        width: 20%;
+    }
+
+

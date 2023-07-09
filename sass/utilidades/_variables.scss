@@ -1,0 +1,15 @@
+$verde:#006241;
+$gris:#d4e9e2;
+$verdeOscuro:#1e3932;
+$beige:#dff9ba;
+
+@mixin imagen($height ,$fit, $filter){
+    height:$height;
+    object-fit:$fit;
+    filter:$filter;
+}
+
+
+
+
+

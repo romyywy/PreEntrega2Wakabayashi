@@ -1,0 +1,31 @@
+//preparacion
+
+.carousel-indicators [data-bs-target]{
+    background-color:$verde;
+}
+
+
+.carousel-item{
+    background-color: beige;
+}
+
+
+.hipervinculo{
+    text-decoration: none;
+    color:grey;
+    font-size: 13px;
+}
+
+.hipervinculo:hover{
+    color:$verde;
+}
+
+.c-text{
+    position: absolute;
+}
+
+
+.c-item2{
+    height: 480px;
+
+}
