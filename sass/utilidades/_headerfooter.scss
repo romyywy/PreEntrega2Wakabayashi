@@ -1,11 +1,9 @@
 //navbar
 
 nav{
-    border: dotted 1px gold;
     background-color:$verde;
     .navbar-collapse{
         display: flex;
-        border: dotted 1px red;
         justify-content: right;
         .nav-link{
             color: antiquewhite;

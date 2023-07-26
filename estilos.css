@@ -1,10 +1,8 @@
 nav {
-  border: dotted 1px gold;
   background-color: #006241;
 }
 nav .navbar-collapse {
   display: flex;
-  border: dotted 1px red;
   justify-content: right;
 }
 nav .navbar-collapse .nav-link {
@@ -58,11 +56,6 @@ footer {
 
 .especialidades-hero {
   background-color: beige;
-  border: 1px dotted goldenrod;
-}
-
-.articulo {
-  border: 1px dotted red;
 }
 
 .card .e-image {
@@ -101,17 +94,10 @@ footer {
   height: 480px;
 }
 
-.mba-main {
-  border: 3px dotted blue;
-}
-.mba-main .mba-cards {
-  border: 1px darkorange dotted;
-}
 .mba-main .mba-cards .col {
   height: 300px;
 }
 .mba-main .mba-cards .col img {
-  border: blue 3px solid;
   height: 130px;
   width: 130px;
 }
